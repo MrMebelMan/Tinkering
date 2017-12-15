@@ -1,8 +1,6 @@
 /* func_ptr.c */
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
 
 int sum ( int a, int b )
 {
@@ -21,4 +19,3 @@ int main ( void )
 
   return 0;
 }
-
