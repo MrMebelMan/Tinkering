@@ -73,7 +73,7 @@ function show_deck ()
   done
 }
 
-get_card_name ()
+function get_card_name ()
 {
   if [ \( $1 -eq 1 \) -o \( $1 -ge 10 \) ]; then
     RET=${CARD_NAMES[$1]}
